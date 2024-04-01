@@ -5,23 +5,25 @@ import java.util.Scanner;
 * grandes y es por eso que se utiliza en listas pequeñas.
 */
 
-public static void sort(int[] arreglo) {
 
-    int n = arreglo.length; // Obtiene el tamaño del arreglo
 
-    for (int i = 0; i < n - 1; i++) { 
-        for (int j = 0; j < n - i - 1; j++) {
+public class Sorts_BubbleSort {
 
-            if (arreglo[j] > arreglo[j + 1]) {  // Si el elemento actual es mayor que el siguiente
-                int temp = arreglo[j];          // Almacena temporalmente el mayor
-                arreglo[j] = arreglo[j + 1];    // Reemplaza el mayor por el menor
-                arreglo[j + 1] = temp;          // Devuelve el elemento mayor a la posición que tenía el menor
+    public static void sort(int[] arreglo) {
+
+        int n = arreglo.length; // Obtiene el tamaño del arreglo
+    
+        for (int i = 0; i < n - 1; i++) { 
+            for (int j = 0; j < n - i - 1; j++) {
+    
+                if (arreglo[j] > arreglo[j + 1]) {  // Si el elemento actual es mayor que el siguiente
+                    int temp = arreglo[j];          // Almacena temporalmente el mayor
+                    arreglo[j] = arreglo[j + 1];    // Reemplaza el mayor por el menor
+                    arreglo[j + 1] = temp;          // Devuelve el elemento mayor a la posición que tenía el menor
+                }
             }
         }
     }
-}
-
-public class Bubble_sort {
     public static void main(String[] args) {
 
         // Ingreso de datos
