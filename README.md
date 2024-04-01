@@ -1,6 +1,6 @@
 # Estructura de datos y algoritmos (Java)
 
-Este repositorio contiene ejemplos de código y ejercicios relacionados con la asignatura "Estructura de datos y algoritmos" utilizando el lenguaje de programación Java.
+Este repositorio contiene ejemplos de código y ejercicios relacionados con la asignatura "Estructura de datos y algoritmos" utilizando Java.
 
 ## Contenido
 
