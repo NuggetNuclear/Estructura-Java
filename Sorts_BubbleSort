@@ -5,7 +5,7 @@ import java.util.Scanner;
 * grandes y es por eso que se utiliza en listas pequeñas.
 */
 
-public static void ort(int[] arreglo) {
+public static void sort(int[] arreglo) {
 
     int n = arreglo.length; // Obtiene el tamaño del arreglo
 
