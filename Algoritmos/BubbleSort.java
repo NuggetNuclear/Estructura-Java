@@ -1,3 +1,4 @@
+package Algoritmos;
 import java.util.Scanner;
 
 /*
@@ -7,7 +8,7 @@ import java.util.Scanner;
 
 
 
-public class Sorts_BubbleSort {
+public class BubbleSort {
 
     public static void sort(int[] arreglo) {
 
