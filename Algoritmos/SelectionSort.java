@@ -40,7 +40,7 @@ public class SelectionSort {
             System.out.println(arr[i] + " Posición: " + i);
         }
 
-        selectionSort(arr); // Llama a la función sort, que es la encargada de ordenar los datos usando Bubble Sort
+        selectionSort(arr); // Llama a la función selectionSort, que es la encargada de ordenar los datos usando Selection Sort
 
         // Imprime el arreglo ordenado
 
