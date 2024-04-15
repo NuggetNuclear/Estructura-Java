@@ -3,19 +3,19 @@ import java.util.Scanner;
 
 public class SelectionSort {
     public static void selectionSort(int[] arr) {
-        int n = arr.length;
+        int n = arr.length; // Tamaño del arreglo
         
         for (int i = 0; i < n - 1; i++) {
-            int minIndex = i;
+            int IndiceMenor = i; // Almacena el índice del elemento mas pequeño
             
             for (int j = i + 1; j < n; j++) {
-                if (arr[j] < arr[minIndex]) {
-                    minIndex = j;
+                if (arr[j] < arr[IndiceMenor]) { // Si el elemento actual es menor que el elemento mas pequeño
+                    IndiceMenor = j; // Actualiza el índice del elemento mas pequeño
                 }
             }
             
-            int temp = arr[minIndex];
-            arr[minIndex] = arr[i];
+            int temp = arr[IndiceMenor]; // Intercambia el elemento actual con el elemento mas pequeño
+            arr[IndiceMenor] = arr[i];
             arr[i] = temp;
         }
     }
