@@ -14,14 +14,14 @@ public class QueueArrays<T> {
     
     public T dequeue() {
         if (isEmpty()) {
-            throw new IllegalStateException("Queue is empty");
+            throw new IllegalStateException("La cola está vacía!");
         }
         return queue.remove(0);
     }
     
     public T peek() {
         if (isEmpty()) {
-            throw new IllegalStateException("Queue is empty");
+            throw new IllegalStateException("La cola está vacía!");
         }
         return queue.get(0);
     }
