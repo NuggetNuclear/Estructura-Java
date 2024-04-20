@@ -35,42 +35,4 @@ public class Laboratorio2 {
             return this.duracion;
         }
     }
-
-    public class Reproductor {
-        private Queue<Song> playlist;
-        private Stack<Song> history;
-
-        public Reproductor() {
-            this.playlist = new LinkedList<>();
-            this.history = new Stack<>();
-        }
-
-        public void addSongToPlaylist(Song song) {
-            playlist.add(song);
-        }
-
-        public void playNextSong() {
-            if (!playlist.isEmpty()) {
-                Song nextSong = playlist.poll();
-                System.out.println("Now playing: " + nextSong.getNombre());
-                history.push(nextSong);
-            } else {
-                System.out.println("Playlist is empty");
-            }
-        }
-
-        public void playPreviousSong() {
-            if (!history.isEmpty()) {
-                Song previousSong = history.pop();
-                System.out.println("Now playing: " + previousSong.getNombre());
-                playlist.add(previousSong);
-            } else {
-                System.out.println("No previous songs in history");
-            }
-        }
-    }
-
-    public static void main(String[] args) {
-        System.out.println("Hola Mundo");
-    }
 }
