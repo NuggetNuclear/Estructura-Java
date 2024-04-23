@@ -1,6 +1,6 @@
 import java.util.EmptyStackException;
 
-public class StacksLnkdList {
+public class StacksLinkedList {
 
     private Node top;
 
