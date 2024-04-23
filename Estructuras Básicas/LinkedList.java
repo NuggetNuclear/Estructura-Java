@@ -16,6 +16,5 @@ public class LinkedList {
         public Node getNextNode() {
           return this.next;
         }
-      
       }
 }
