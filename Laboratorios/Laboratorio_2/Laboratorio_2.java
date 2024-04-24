@@ -1,6 +1,6 @@
-package Laboratorios.Laboratorio2;
+package Laboratorios.Laboratorio_2;
 
-public class Laboratorio2 {
+public class Laboratorio_2 {
     
     public class Song {
         private

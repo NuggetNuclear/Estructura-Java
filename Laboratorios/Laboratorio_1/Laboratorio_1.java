@@ -1,7 +1,9 @@
+package Laboratorios.Laboratorio_1;
+
 import java.util.Scanner;
 import java.util.Arrays;
 
-public class Laboratorio1 {
+public class Laboratorio_1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int m = 0, n = 0;
