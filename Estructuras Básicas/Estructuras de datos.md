@@ -33,11 +33,11 @@ La elección de la estructura de datos adecuada depende del caso de uso específ
 
 Para utilizar cada estructura las podemos importar o implementar nosotros mismos a partir de los códigos de este repositorio:
 
-import java.util.Arrays; // Para arreglos
-import java.util.ArrayList; // Para listas
-import java.util.Stack; // Para pilas
-import java.util.LinkedList; // Para colas
-import java.util.HashSet; // Para conjuntos
-import java.util.HashMap; // Para mapas
-import java.util.LinkedList; // Para listas enlazadas
-import java.util.ArrayDeque; // Para colas dobles
+import java.util.Arrays; // Para arreglos  
+import java.util.ArrayList; // Para listas  
+import java.util.Stack; // Para pilas  
+import java.util.LinkedList; // Para colas  
+import java.util.HashSet; // Para conjuntos  
+import java.util.HashMap; // Para mapas  
+import java.util.LinkedList; // Para listas enlazadas  
+import java.util.ArrayDeque; // Para colas dobles  
