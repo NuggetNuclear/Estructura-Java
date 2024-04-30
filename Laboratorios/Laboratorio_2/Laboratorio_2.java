@@ -1,17 +1,16 @@
 package Laboratorios.Laboratorio_2;
 
 public class Laboratorio_2 {
-    
     public class Song {
         private
-        
+
         String nombre;
         String artista;
         String album;
         int duracion;
 
-        public 
-        
+        public
+
         Song(String nombre, String artista, String album, int duracion) {
             this.nombre = nombre;
             this.artista = artista;
