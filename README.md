@@ -1,21 +1,26 @@
 # Estructura de datos y algoritmos (Java)
 
-Este repositorio contiene ejemplos de código y ejercicios relacionados con la asignatura "Estructura de datos y algoritmos" utilizando Java.
+Este repositorio contiene ejemplos de código y ejercicios relacionados con la asignatura "Estructura de datos y algoritmos" (Java).
 
 ## Contenido
 
 - [Introducción](#introducción)
 - [Estructuras de datos](#estructuras-de-datos)
 - [Algoritmos](#algoritmos)
+- [Laboratorios](#laboratorios)
 
 ## Introducción
 
-En esta asignatura, exploraremos los conceptos fundamentales de las estructuras de datos y los algoritmos en el contexto de Java. Aprenderemos cómo implementar y utilizar diversas estructuras de datos, como listas, pilas, colas, árboles, grafos, etc., y cómo aplicar algoritmos eficientes para resolver problemas comunes.
+Introducción a Java, con funciones básicas y ejemplos de sintáxis.
 
 ## Estructuras de datos
 
-En esta sección, encontrarás ejemplos de implementaciones de diferentes estructuras de datos en Java. Cada ejemplo incluirá una descripción de la estructura de datos y cómo utilizarla en tus propios proyectos.
+Implementaciones propias de distintas estructuras básicas (Listas enlazadas, Arboles binarios, etc).
 
 ## Algoritmos
 
-Aquí encontrarás ejemplos de algoritmos comunes implementados en Java. Estos algoritmos abarcarán diversas áreas, como búsqueda, ordenación, recursión, etc. Cada ejemplo incluirá una descripción del algoritmo y cómo aplicarlo en diferentes escenarios.
+Aquí se encuentran los algoritmos que se irán implementando a lo largo del curso.
+
+## Laboratorios
+
+Laboratorios desarrollados a lo largo del curso con sus respectivos informes y guías de desarrollo.
