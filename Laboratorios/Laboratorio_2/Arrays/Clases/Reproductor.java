@@ -1,6 +1,6 @@
 
 
-import Implementaciones.listaEnlazada;
+import Implementaciones.ListaEnlazada;
 import java.util.Random;
 
 public class Reproductor {
@@ -66,7 +66,7 @@ public class Reproductor {
         }
     }
 
-    public void reproducirColaEnOrden(listaEnlazada<Cancion> lista) {
+    public void reproducirColaEnOrden(ListaEnlazada<Cancion> lista) {
         while (!lista.isEmpty()) {
             lista.remove().imprimirInformacion();
         }

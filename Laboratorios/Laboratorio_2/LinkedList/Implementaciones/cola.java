@@ -1,6 +1,6 @@
 package Implementaciones;
 
-public class cola<E> extends listaEnlazada<E>{
+public class cola<E> extends ListaEnlazada<E>{
     
     public cola() {
     }

@@ -4,12 +4,12 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        Graph graph = new Graph("D:\\Code\\Stopify-4\\resources\\graph.csv");
+        Graph graph = new Graph("D:\\Code\\Estructura-Java\\Laboratorios\\Laboratorio_4\\resources\\graph.csv");
 
         HashTable hashTable = new HashTable();
         Dijkstra dj = new Dijkstra();
 
-        try(BufferedReader br = new BufferedReader(new FileReader("D:\\Code\\Stopify-4\\resources\\pairs.csv"))){
+        try(BufferedReader br = new BufferedReader(new FileReader("D:\\Code\\Estructura-Java\\Laboratorios\\Laboratorio_4\\resources\\pairs.csv"))){
             String lineaActual;
             while((lineaActual = br.readLine()) != null){
                 String[] partes = lineaActual.split(",");
@@ -27,8 +27,7 @@ public class Main {
             e.printStackTrace();
         }
 
-        //graph.imprimirGrafo();
-
+        graph.imprimirGrafo();
         hashTable.printTable();
 
     }

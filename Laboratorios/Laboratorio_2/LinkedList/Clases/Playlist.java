@@ -1,12 +1,12 @@
-import Implementaciones.listaEnlazada;
+import Implementaciones.ListaEnlazada;
 
 public class Playlist {
     private String Nombre;
-    private listaEnlazada<Cancion> canciones;
+    private ListaEnlazada<Cancion> canciones;
 
     Playlist(String Nombre) {
         this.Nombre = Nombre;
-        canciones = new listaEnlazada<>();
+        canciones = new ListaEnlazada<>();
     }
 
     // Getters
@@ -19,7 +19,7 @@ public class Playlist {
         this.Nombre = Nombre;
     }
 
-    public listaEnlazada<Cancion> getCanciones() {
+    public ListaEnlazada<Cancion> getCanciones() {
         return canciones;
     }
 

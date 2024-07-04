@@ -1,5 +1,3 @@
-package Implementaciones;
-
 public class ListaEnlazada<E> {
 
     private Node<E> head;
@@ -14,7 +12,7 @@ public class ListaEnlazada<E> {
         }
     }
 
-    public ListaEnlazada() {
+    public listaEnlazada() {
         head = null;
         tamano = 0;
     }

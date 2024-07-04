@@ -50,6 +50,7 @@ public class Graph {
                 System.out.print(conexion.destino + " ");
             }
             System.out.println();
+
         }
     }
 }

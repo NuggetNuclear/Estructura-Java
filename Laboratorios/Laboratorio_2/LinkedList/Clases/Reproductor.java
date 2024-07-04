@@ -1,11 +1,11 @@
-import Implementaciones.listaEnlazada;
+import Implementaciones.ListaEnlazada;
 import Implementaciones.cola;
 
 import java.util.Random;
 
 public class Reproductor {
 
-    private listaEnlazada<Cancion> listaPlaylists = new listaEnlazada<>();
+    private ListaEnlazada<Cancion> listaPlaylists = new ListaEnlazada<>();
     private cola<Cancion> colaReproduccion = new cola<>();
 
     Reproductor() {
@@ -13,7 +13,7 @@ public class Reproductor {
 
     // Getters
 
-    public listaEnlazada<Cancion> getListaPlaylists() {
+    public ListaEnlazada<Cancion> getListaPlaylists() {
         return listaPlaylists;
     }
 
