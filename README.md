@@ -15,7 +15,7 @@ Introducción a Java, con funciones básicas y ejemplos de sintáxis.
 
 ## Estructuras de datos
 
-Implementaciones propias de distintas estructuras básica (Listas enlazadas, Arboles binarios, etc).
+Implementaciones propias de distintas estructuras básicas (Listas enlazadas, Arboles binarios, etc).
 
 ## Algoritmos
 
