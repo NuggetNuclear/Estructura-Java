@@ -3,10 +3,9 @@ import java.util.Scanner;
 public class Introduccion_Java {
 
     public static void main(String[] args) {
-        // Static: Se refiere a que el metodo pertenece a la clase y no a un objeto
 
         System.out.println("Hola Mundo"); 
-        System.out.println("Hola Mundo"); 
+        System.out.print("Hola Mundo"); 
 
         /* System.out.Printl() : Output con salto de linea
          * System.out.Print()  : Output sin salto de linea 
