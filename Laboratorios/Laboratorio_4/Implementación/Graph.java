@@ -37,10 +37,6 @@ public class Graph {
         return listaAdyacencia.getOrDefault(vertice, new ArrayList<>());
     }
 
-    public ArrayList<String> obtenerVertices() {
-        return new ArrayList<>(listaAdyacencia.keySet());
-    }
-
     public void imprimirGrafo() {
         System.out.println("Grafo:");
         for (String vertice : listaAdyacencia.keySet()) {
