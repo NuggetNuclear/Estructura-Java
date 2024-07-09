@@ -1,16 +1,19 @@
-package Implementacion;
-
 public class Tree {
+
+    // Clase interna que representa un nodo, contiene la información y referencias a los nodos hijos "left" y "right").
+    
     public static class Node {
-        private Cancion data;
+        private int data;
         private Node left, right;
 
-        public Node(Cancion data){
+        public Node(int data){
             this.data = data;
             left = right = null;
         }
 
-        public Cancion getData(){ return data; }
+        // Getters y Setters
+
+        public int getData(){ return data; }
 
         public Node getLeft(){ return left; }
 
@@ -21,15 +24,23 @@ public class Tree {
         public void setRight(Node right){ this.right = right; }
     }
 
+    // Crea el nodo raiz (primer nodo del arbol).
+
     private Node root;
 
+    // Constructor (inicializa la raiz en null).
+    
     public Tree(){
         root = null;
     }
 
+    // Getter (raiz).
+
     public Node getRoot(){ return root; }
 
-    public Node insertar(Node root, Cancion data) {
+    // Método para insertar en el arbol.
+
+    public Node insertar(Node root, int data) {
         if (root == null) {
             root = new Node(data);
             return root;
@@ -37,6 +48,9 @@ public class Tree {
 
         Node current = root;
         Node parent = null;
+
+        // Recorre el arbol hacia abajo para encontrar espacio.
+        
         while (current != null) {
             parent = current;
             if (data.getNombre().compareTo(current.getData().getNombre()) < 0) {
@@ -48,12 +62,15 @@ public class Tree {
             }
         }
 
-        // Inserta el nuevo nodo en el lugar correcto
+        // Inserta el nuevo nodo en el lugar correcto.
+        
         if (data.getNombre().compareTo(parent.getData().getNombre()) < 0) {
             parent.setLeft(new Node(data));
         } else {
             parent.setRight(new Node(data));
         }
+
+        // Retorna la raiz del árbol.
 
         return root;
     }
