@@ -28,13 +28,15 @@ public class Grafos {
         listaAdyacencia.computeIfAbsent(destino, k -> new ArrayList<>()).add(new Arista(origen, costo));
     }
 
-    // Getter de todas las arista de un nodo.
+    // Getter de todas las arista de un nodo (o vertice).
 
     public ArrayList<Arista> obtenerConexiones(String vertice) {
         return listaAdyacencia.getOrDefault(vertice, new ArrayList<>());
     }
 
-    public ArrayList<String> obtenerVertices() {
+    // Getter de un nodo
+    
+    public ArrayList<String> obtenerNodo() {
         return new ArrayList<>(listaAdyacencia.keySet());
     }
 
@@ -49,7 +51,6 @@ public class Grafos {
                 System.out.print(conexion.destino + " ");
             }
             System.out.println();
-
         }
     }
 }
